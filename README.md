@@ -22,18 +22,19 @@
 Программа написана на чистом Python 3 и использует встроенные библиотеки (`tkinter`, `http.server`, `threading`, `socket`), поэтому установка внешних зависимостей не требуется.
 
 **Клонирование и запуск:**
-bash
+```bash
 git clone [https://github.com/runtime-err/Local_File_Server.git](https://github.com/runtime-err/Local_File_Server.git)
 cd Local_File_Server
 python Local_File_Server.py
+```
 
 
 ## 📦 Сборка в .exe
 Для самостоятельной компиляции скрипта в один независимый исполняемый файл используется PyInstaller:
 
-Bash
+```bash
 pip install pyinstaller
 python -m PyInstaller --noconsole --onefile --icon=logo.ico Local_File_Server.py
-Готовый файл появится в папке dist.
+```
 
 Разработчик: @runtime_err
